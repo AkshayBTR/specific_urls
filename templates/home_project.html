@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>APP2 Home</title>
+    <link rel="stylesheet" href="{% static 'css/style_app2.css' %}">
+</head>
+<body>
+    <h1>welcome to home</h1>
+    <a href="{% url 'app1:home_app1' %}">click here to go for app1 home</a><br>
+    <a href="{% url 'app2:home_app2' %}">click here to go for app2 home</a><br>
+</body>
+</html>

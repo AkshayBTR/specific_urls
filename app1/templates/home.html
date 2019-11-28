@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>APP1 Home</title>
+    <link rel="stylesheet" href="{% static 'css/style_app1.css' %}">
+</head>
+<body>
+    <h1>welcome to app1 home</h1>
+    <img src="{% static 'images/image_app1.jpg' %}" alt="image not found">
+    <a href="{% url 'home' %}">click here to go for project home</a>
+</body>
+</html>
